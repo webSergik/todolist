@@ -1,0 +1,24 @@
+.popup-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.popup-avatar {
+	background-color: #fff;
+	border: 1px solid #ccc;
+	color: rgba(0, 0, 0, 0.85);
+	vertical-align: middle;
+}
+
+.popup-user-info {
+	display: flex;
+	flex-direction: column;
+}
+
+.popup-settings {
+	margin: 16px 0 8px;
+}
+
+.popup-settings a {
+	color: rgba(0, 0, 0, 0.85);
+}

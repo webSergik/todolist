@@ -1,0 +1,21 @@
+.logo {
+	position: relative;
+	height: 64px;
+	line-height: 64px;
+	background: #fff;
+	overflow: hidden;
+	box-shadow: 0 2px 8px #f0f1f2;
+}
+
+.logo-img {
+	font-size: 24px;
+	color: #db4c3f !important;
+}
+
+.logo-text {
+	font-size: 24px;
+	color: #db4c3f;
+	display: inline-flex;
+	margin-bottom: 0;
+	padding-left: 8px;
+}

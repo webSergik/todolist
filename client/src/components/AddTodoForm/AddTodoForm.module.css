@@ -1,0 +1,36 @@
+.form {
+	width: 100%;
+}
+
+.form-wrapper {
+	width: 100%;
+	border: 1px solid #d9d9d9;
+	border-radius: 2px;
+	padding: 8px 8px;
+}
+
+.title {
+	margin-bottom: 0;
+}
+
+.tag {
+	text-align: right;
+}
+
+.add-tag {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.footer-wrapper div[role='row'] {
+	margin-bottom: 0;
+}
+
+.tag-select {
+	min-width: 200px;
+}
+
+.form .action-button {
+	margin-top: 16px;
+	margin-bottom: 0;
+}

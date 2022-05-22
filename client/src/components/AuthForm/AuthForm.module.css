@@ -1,0 +1,13 @@
+.button-submit {
+	width: 100%;
+	margin-bottom: 16px;
+}
+
+.form-footer {
+	display: flex;
+	justify-content: center;
+}
+
+.form-footer span {
+	margin-right: 8px;
+}

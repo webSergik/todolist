@@ -1,0 +1,30 @@
+.header-auth {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	align-items: center;
+	padding: 0 24px;
+}
+
+.header-auth-right {
+	display: flex;
+}
+
+.menu-icon {
+	font-size: 20px;
+}
+
+.header-icon {
+	cursor: pointer;
+}
+
+.searchbox {
+	width: 200;
+	display: inline-flex;
+	margin-left: 16px;
+	border-left: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.searchbox svg {
+	color: #ced4d9;
+}
