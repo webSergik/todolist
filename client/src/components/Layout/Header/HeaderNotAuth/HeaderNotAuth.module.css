@@ -1,6 +1,7 @@
 .header {
 	display: flex;
 	justify-content: space-between;
+
 	width: 100%;
 	padding-right: 24px;
 }
@@ -11,5 +12,5 @@
 }
 
 .auth-button button:hover {
-	border-bottom: 2px solid #1890ff;
+	border-bottom: 2px solid #1890FF;
 }

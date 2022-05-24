@@ -1,17 +1,19 @@
 .ant-layout {
-	background: #fff;
+	background: #FFF;
 }
 
 .ant-layout-sider {
-	background: #fff;
+	background: #FFF;
 }
 
 .ant-layout-header {
 	position: relative;
 	z-index: 10;
-	background: #fff;
-	box-shadow: 0 2px 8px #f0f1f2;
+
 	padding: 0;
+
+	background: #FFF;
+	box-shadow: 0 2px 8px #F0F1F2;
 }
 
 .ant-popover-inner-content {

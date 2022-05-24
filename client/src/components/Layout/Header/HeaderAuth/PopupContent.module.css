@@ -1,6 +1,7 @@
 .popover {
 	background: red;
 }
+
 .popover li {
 	padding: 0 !important;
 }
@@ -10,5 +11,5 @@
 }
 
 .menu-items__border-top {
-	border-top: 1px solid rgba(0, 0, 0, 0.06);
+	border-top: 1px solid rgb(0 0 0 / 6%);
 }

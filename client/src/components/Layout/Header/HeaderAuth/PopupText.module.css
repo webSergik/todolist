@@ -4,10 +4,11 @@
 }
 
 .popup-avatar {
-	background-color: #fff;
-	border: 1px solid #ccc;
-	color: rgba(0, 0, 0, 0.85);
 	vertical-align: middle;
+
+	color: rgb(0 0 0 / 85%);
+	border: 1px solid #CCC;
+	background-color: #FFF;
 }
 
 .popup-user-info {
@@ -20,5 +21,5 @@
 }
 
 .popup-settings a {
-	color: rgba(0, 0, 0, 0.85);
+	color: rgb(0 0 0 / 85%);
 }

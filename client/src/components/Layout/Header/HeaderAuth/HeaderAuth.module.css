@@ -1,8 +1,9 @@
 .header-auth {
 	display: flex;
-	justify-content: space-between;
-	width: 100%;
 	align-items: center;
+	justify-content: space-between;
+
+	width: 100%;
 	padding: 0 24px;
 }
 
@@ -19,12 +20,14 @@
 }
 
 .searchbox {
-	width: 200;
 	display: inline-flex;
+
+	width: 200;
 	margin-left: 16px;
-	border-left: 1px solid rgba(0, 0, 0, 0.06);
+
+	border-left: 1px solid rgb(0 0 0 / 6%);
 }
 
 .searchbox svg {
-	color: #ced4d9;
+	color: #CED4D9;
 }
