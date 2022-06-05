@@ -3,7 +3,6 @@ import jwt from 'jsonwebtoken';
 import TokenModel from './token.model.js';
 
 export const generateTokens = (payload) => {
-	console.log('payload!!!', payload);
 	const accessToken = jwt.sign(payload, process.env.JWT_ACCESS_TOKEN_SECRET, {
 		expiresIn: process.env.JWT_ACCESS_TOKEN_EXPIRES_IN,
 	});
@@ -18,7 +17,7 @@ export const generateTokens = (payload) => {
 
 // TODO может все же saveRefreshToken?
 export const saveToken = async (userId, refreshToken) => {
-	const tokenData = await TokenModel.findOne({ user: userId }); //TODO Токен только для одного устройства
+	const tokenData = await TokenModel.findOne({ userId }); //TODO Токен только для одного устройства
 	if (tokenData) {
 		tokenData.refreshToken = refreshToken;
 		return tokenData.save();
